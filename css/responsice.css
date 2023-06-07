@@ -1,0 +1,47 @@
+@media screen and (max-width: 768px) {
+  /* utilities */
+  .two-cols,
+  .three-cols,
+  .four-cols {
+    width: 100%;
+  }
+
+  /* home section */
+  .nav-list {
+    display: none;
+  }
+
+  /* about section */
+  .img-container::before {
+    display: none;
+  }
+
+  /* statistics section */
+  .statistics-item i,
+  .statistics-item h3 {
+    font-size: 40px;
+  }
+  .statistics-item h5 {
+    font-size: 30px;
+  }
+
+  .testimonial-image,
+  .testimonial-content {
+    float: none;
+  }
+  .testimonial-image {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .testimonial-content {
+    width: 100%;
+    text-align: center;
+  }
+  /* contact section */
+  .contact-form{
+    width: 100%;
+  }
+  .contact-form .col{
+    padding-right: 0;
+  }
+}
